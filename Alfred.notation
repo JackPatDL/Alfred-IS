@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_rDqc8ONjEeiuhYwqE17vbg" type="UseCase" name="NewSysML1.4UseCaseDiagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_GPOPUeNkEeiuhYwqE17vbg" type="UseCase_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_GPOPU-NkEeiuhYwqE17vbg" type="UseCase_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_GPOPVONkEeiuhYwqE17vbg" type="UseCase_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_GPOPVeNkEeiuhYwqE17vbg" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_GPOPVuNkEeiuhYwqE17vbg" type="UseCase_ExtensionPointCompartment">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_GPOPV-NkEeiuhYwqE17vbg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_GPOPWONkEeiuhYwqE17vbg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GPOPWeNkEeiuhYwqE17vbg"/>
+    </children>
+    <element xmi:type="uml:UseCase" href="Alfred.uml#_GPOPUONkEeiuhYwqE17vbg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GPOPUuNkEeiuhYwqE17vbg" x="140" y="262"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_HERoAeNkEeiuhYwqE17vbg" type="UseCase_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_HERoA-NkEeiuhYwqE17vbg" type="UseCase_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_HERoBONkEeiuhYwqE17vbg" type="UseCase_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_HERoBeNkEeiuhYwqE17vbg" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_HERoBuNkEeiuhYwqE17vbg" type="UseCase_ExtensionPointCompartment">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_HERoB-NkEeiuhYwqE17vbg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_HERoCONkEeiuhYwqE17vbg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HERoCeNkEeiuhYwqE17vbg"/>
+    </children>
+    <element xmi:type="uml:UseCase" href="Alfred.uml#_HERoAONkEeiuhYwqE17vbg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HERoAuNkEeiuhYwqE17vbg" x="164" y="157"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_HcD14eNkEeiuhYwqE17vbg" type="UseCase_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_HcD14-NkEeiuhYwqE17vbg" type="UseCase_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_HcD15ONkEeiuhYwqE17vbg" type="UseCase_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_HcD15eNkEeiuhYwqE17vbg" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_HcD15uNkEeiuhYwqE17vbg" type="UseCase_ExtensionPointCompartment">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_HcD15-NkEeiuhYwqE17vbg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_HcD16ONkEeiuhYwqE17vbg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HcD16eNkEeiuhYwqE17vbg"/>
+    </children>
+    <element xmi:type="uml:UseCase" href="Alfred.uml#_HcD14ONkEeiuhYwqE17vbg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HcD14uNkEeiuhYwqE17vbg" x="206" y="399"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_HwemsONkEeiuhYwqE17vbg" type="Actor_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_HwemsuNkEeiuhYwqE17vbg" type="Actor_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Hwems-NkEeiuhYwqE17vbg" y="15"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_HwemtONkEeiuhYwqE17vbg" type="Actor_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_HwemteNkEeiuhYwqE17vbg" x="20" y="100"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_HwemtuNkEeiuhYwqE17vbg" type="Actor_QualifiedNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Hwemt-NkEeiuhYwqE17vbg" x="20" y="80"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_HwemuONkEeiuhYwqE17vbg" type="Actor_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_HwemueNkEeiuhYwqE17vbg" y="15"/>
+    </children>
+    <element xmi:type="uml:Actor" href="Alfred.uml#_HwU1sONkEeiuhYwqE17vbg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HwemseNkEeiuhYwqE17vbg" x="35" y="159"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_rDqc8eNjEeiuhYwqE17vbg" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_rDqc8uNjEeiuhYwqE17vbg"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_rDqc8-NjEeiuhYwqE17vbg" diagramKindId="org.eclipse.papyrus.sysml14.diagram.useCase">
+    <owner xmi:type="uml:Package" href="Alfred.uml#_3yfx8ONhEeiuhYwqE17vbg"/>
+  </styles>
+  <element xmi:type="uml:Model" href="Alfred.uml#_0_jlsONgEeiuhYwqE17vbg"/>
+</notation:Diagram>
