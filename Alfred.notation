@@ -90,14 +90,6 @@
       <element xmi:type="uml:Class" href="Alfred.uml#_fzrB0O5YEeiPWblirI5b4g"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f0vY0e5YEeiPWblirI5b4g" x="100" y="100" width="141" height="121"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_f3JMkO5YEeiPWblirI5b4g" type="StereotypeComment">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_f3JMke5YEeiPWblirI5b4g"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_f3JMk-5YEeiPWblirI5b4g" name="BASE_ELEMENT">
-        <eObjectValue xmi:type="uml:Class" href="Alfred.uml#_fzrB0O5YEeiPWblirI5b4g"/>
-      </styles>
-      <element xsi:nil="true"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f3JMku5YEeiPWblirI5b4g" x="200"/>
-    </children>
     <children xmi:type="notation:Shape" xmi:id="_6fQBsO5aEeiPWblirI5b4g" type="Class_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_6fQowO5aEeiPWblirI5b4g" type="Class_NameLabel"/>
       <children xmi:type="notation:DecorationNode" xmi:id="_6fRP0O5aEeiPWblirI5b4g" type="Class_FloatingNameLabel">
@@ -124,13 +116,21 @@
       <element xmi:type="uml:Class" href="Alfred.uml#_6fAxIO5aEeiPWblirI5b4g"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6fQBse5aEeiPWblirI5b4g" x="280" y="100" width="121" height="121"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_6ffSQO5aEeiPWblirI5b4g" type="StereotypeComment">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_6ffSQe5aEeiPWblirI5b4g"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_6ffSQ-5aEeiPWblirI5b4g" name="BASE_ELEMENT">
+    <children xmi:type="notation:Shape" xmi:id="_nw9u4O5gEeiPWblirI5b4g" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_nw9u4e5gEeiPWblirI5b4g"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_nw9u4-5gEeiPWblirI5b4g" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Class" href="Alfred.uml#_fzrB0O5YEeiPWblirI5b4g"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nw9u4u5gEeiPWblirI5b4g" x="300" y="100"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_nxodQO5gEeiPWblirI5b4g" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_nxodQe5gEeiPWblirI5b4g"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_nxodQ-5gEeiPWblirI5b4g" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Class" href="Alfred.uml#_6fAxIO5aEeiPWblirI5b4g"/>
       </styles>
       <element xsi:nil="true"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6ffSQu5aEeiPWblirI5b4g" x="200"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nxodQu5gEeiPWblirI5b4g" x="480" y="100"/>
     </children>
     <styles xmi:type="notation:StringValueStyle" xmi:id="_bkwxYe5YEeiPWblirI5b4g" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_bkwxYu5YEeiPWblirI5b4g"/>
@@ -138,25 +138,25 @@
       <owner xmi:type="uml:Package" href="Alfred.uml#_3yfx8ONhEeiuhYwqE17vbg"/>
     </styles>
     <element xmi:type="uml:Package" href="Alfred.uml#_3yfx8ONhEeiuhYwqE17vbg"/>
-    <edges xmi:type="notation:Connector" xmi:id="_f3JzoO5YEeiPWblirI5b4g" type="StereotypeCommentLink" source="_f0vY0O5YEeiPWblirI5b4g" target="_f3JMkO5YEeiPWblirI5b4g">
-      <styles xmi:type="notation:FontStyle" xmi:id="_f3Jzoe5YEeiPWblirI5b4g"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_f3KasO5YEeiPWblirI5b4g" name="BASE_ELEMENT">
+    <edges xmi:type="notation:Connector" xmi:id="_nw9u5O5gEeiPWblirI5b4g" type="StereotypeCommentLink" source="_f0vY0O5YEeiPWblirI5b4g" target="_nw9u4O5gEeiPWblirI5b4g">
+      <styles xmi:type="notation:FontStyle" xmi:id="_nw9u5e5gEeiPWblirI5b4g"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_nw-V8u5gEeiPWblirI5b4g" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Class" href="Alfred.uml#_fzrB0O5YEeiPWblirI5b4g"/>
       </styles>
       <element xsi:nil="true"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_f3Jzou5YEeiPWblirI5b4g" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_f3Jzo-5YEeiPWblirI5b4g"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_f3JzpO5YEeiPWblirI5b4g"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nw9u5u5gEeiPWblirI5b4g" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nw-V8O5gEeiPWblirI5b4g"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nw-V8e5gEeiPWblirI5b4g"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_6ffSRO5aEeiPWblirI5b4g" type="StereotypeCommentLink" source="_6fQBsO5aEeiPWblirI5b4g" target="_6ffSQO5aEeiPWblirI5b4g">
-      <styles xmi:type="notation:FontStyle" xmi:id="_6ffSRe5aEeiPWblirI5b4g"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_6ff5Uu5aEeiPWblirI5b4g" name="BASE_ELEMENT">
+    <edges xmi:type="notation:Connector" xmi:id="_nxodRO5gEeiPWblirI5b4g" type="StereotypeCommentLink" source="_6fQBsO5aEeiPWblirI5b4g" target="_nxodQO5gEeiPWblirI5b4g">
+      <styles xmi:type="notation:FontStyle" xmi:id="_nxodRe5gEeiPWblirI5b4g"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_nxpEUe5gEeiPWblirI5b4g" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Class" href="Alfred.uml#_6fAxIO5aEeiPWblirI5b4g"/>
       </styles>
       <element xsi:nil="true"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_6ffSRu5aEeiPWblirI5b4g" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6ff5UO5aEeiPWblirI5b4g"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6ff5Ue5aEeiPWblirI5b4g"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nxodRu5gEeiPWblirI5b4g" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nxodR-5gEeiPWblirI5b4g"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nxpEUO5gEeiPWblirI5b4g"/>
     </edges>
   </notation:Diagram>
 </xmi:XMI>
