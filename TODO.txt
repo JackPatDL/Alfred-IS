@@ -1,0 +1,10 @@
+Diagramme exigences
+Diagramme UC (1 exigence pour commencer)
+Diagramme Sequence Systeme
+Diagramme Sequence
+Diagramme de Blocs
+Diagramme de Blocs Interne
+Machine a Etat / Diagramme Activite
+
+
+Exigence 1 : Alfred doit pouvoir mesurer la température dans la maison
