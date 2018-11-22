@@ -29,6 +29,7 @@
     <packagedElement xmi:type="uml:UseCase" xmi:id="_HERoAONkEeiuhYwqE17vbg" name="Lire indicateur santé maison"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_HcD14ONkEeiuhYwqE17vbg" name="Lire indicateurs détaillés"/>
     <packagedElement xmi:type="uml:Actor" xmi:id="_HwU1sONkEeiuhYwqE17vbg" name="Batman"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_8FNrMO5gEeiU8_u1U0bh5g" name="FACT"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_1ICzUONgEeiuhYwqE17vbg">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1II58ONgEeiuhYwqE17vbg" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
