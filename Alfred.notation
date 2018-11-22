@@ -11,7 +11,7 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GPOPWeNkEeiuhYwqE17vbg"/>
     </children>
     <element xmi:type="uml:UseCase" href="Alfred.uml#_GPOPUONkEeiuhYwqE17vbg"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GPOPUuNkEeiuhYwqE17vbg" x="140" y="262"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GPOPUuNkEeiuhYwqE17vbg" x="200" y="220"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_HERoAeNkEeiuhYwqE17vbg" type="UseCase_Shape">
     <children xmi:type="notation:DecorationNode" xmi:id="_HERoA-NkEeiuhYwqE17vbg" type="UseCase_NameLabel"/>
@@ -24,7 +24,7 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HERoCeNkEeiuhYwqE17vbg"/>
     </children>
     <element xmi:type="uml:UseCase" href="Alfred.uml#_HERoAONkEeiuhYwqE17vbg"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HERoAuNkEeiuhYwqE17vbg" x="164" y="157"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HERoAuNkEeiuhYwqE17vbg" x="200" y="120"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_HcD14eNkEeiuhYwqE17vbg" type="UseCase_Shape">
     <children xmi:type="notation:DecorationNode" xmi:id="_HcD14-NkEeiuhYwqE17vbg" type="UseCase_NameLabel"/>
@@ -37,7 +37,7 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HcD16eNkEeiuhYwqE17vbg"/>
     </children>
     <element xmi:type="uml:UseCase" href="Alfred.uml#_HcD14ONkEeiuhYwqE17vbg"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HcD14uNkEeiuhYwqE17vbg" x="206" y="399"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HcD14uNkEeiuhYwqE17vbg" x="200" y="340"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_HwemsONkEeiuhYwqE17vbg" type="Actor_Shape">
     <children xmi:type="notation:DecorationNode" xmi:id="_HwemsuNkEeiuhYwqE17vbg" type="Actor_NameLabel">

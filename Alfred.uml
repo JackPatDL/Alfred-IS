@@ -21,9 +21,9 @@
   <packagedElement xmi:type="uml:Package" xmi:id="_xz5FgONhEeiuhYwqE17vbg" name="System Test"/>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_cPmLsONjEeiuhYwqE17vbg" name="UseCase17" visibility="protected"/>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_c85WkONjEeiuhYwqE17vbg" name="UseCase18"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_GPOPUONkEeiuhYwqE17vbg" name="UseCase19"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_HERoAONkEeiuhYwqE17vbg" name="UseCase20"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_HcD14ONkEeiuhYwqE17vbg" name="UseCase21"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_GPOPUONkEeiuhYwqE17vbg" name="Lire prévisions"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_HERoAONkEeiuhYwqE17vbg" name="Lire indicateur santé maison"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_HcD14ONkEeiuhYwqE17vbg" name="Lire indicateurs détaillés"/>
   <packagedElement xmi:type="uml:Actor" xmi:id="_HwU1sONkEeiuhYwqE17vbg" name="Batman"/>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_1ICzUONgEeiuhYwqE17vbg">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1II58ONgEeiuhYwqE17vbg" source="http://www.eclipse.org/uml2/2.0.0/UML">
