@@ -92,5 +92,5 @@
     </profileApplication>
   </uml:Model>
   <Requirements:Requirement xmi:id="_f0e6IO5YEeiPWblirI5b4g" base_Class="_fzrB0O5YEeiPWblirI5b4g" id="1" text="Alfred doit pouvoir afficher la température dans la maison"/>
-  <Requirements:Requirement xmi:id="_6fKiIO5aEeiPWblirI5b4g" base_Class="_6fAxIO5aEeiPWblirI5b4g" text="Test"/>
+  <Requirements:Requirement xmi:id="_6fKiIO5aEeiPWblirI5b4g" base_Class="_6fAxIO5aEeiPWblirI5b4g" id="2" text="Test"/>
 </xmi:XMI>
