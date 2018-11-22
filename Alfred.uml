@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_0_jlsONgEeiuhYwqE17vbg" name="Alfred">
   <packageImport xmi:type="uml:PackageImport" xmi:id="_1IVHMONgEeiuhYwqE17vbg">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
@@ -86,6 +87,8 @@
   </profileApplication>
 </uml:Model>
 =======
+=======
+>>>>>>> e9ac32b69e76b528f3fe03055c7108f51daf05ab
 <xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements">
   <uml:Model xmi:id="_0_jlsONgEeiuhYwqE17vbg" name="Alfred">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_1IVHMONgEeiuhYwqE17vbg">
@@ -98,6 +101,10 @@
     <packagedElement xmi:type="uml:Package" xmi:id="_r1lUAONhEeiuhYwqE17vbg" name="System Specification">
       <packagedElement xmi:type="uml:Package" xmi:id="_3yfx8ONhEeiuhYwqE17vbg" name="General Needs">
         <packagedElement xmi:type="uml:Class" xmi:id="_fzrB0O5YEeiPWblirI5b4g" name="Température" isLeaf="true" isAbstract="true"/>
+<<<<<<< HEAD
+=======
+        <packagedElement xmi:type="uml:Class" xmi:id="_6fAxIO5aEeiPWblirI5b4g" name="Requirement2"/>
+>>>>>>> e9ac32b69e76b528f3fe03055c7108f51daf05ab
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_6iz9cONhEeiuhYwqE17vbg" name="Technical Needs"/>
     </packagedElement>
@@ -177,5 +184,10 @@
     </profileApplication>
   </uml:Model>
   <Requirements:Requirement xmi:id="_f0e6IO5YEeiPWblirI5b4g" base_Class="_fzrB0O5YEeiPWblirI5b4g" id="1" text="Alfred doit pouvoir afficher la température dans la maison"/>
+<<<<<<< HEAD
 </xmi:XMI>
 >>>>>>> 8e0e9b3795e65e4b6f605250faa00aef126143c0
+=======
+  <Requirements:Requirement xmi:id="_6fKiIO5aEeiPWblirI5b4g" base_Class="_6fAxIO5aEeiPWblirI5b4g"/>
+</xmi:XMI>
+>>>>>>> e9ac32b69e76b528f3fe03055c7108f51daf05ab
