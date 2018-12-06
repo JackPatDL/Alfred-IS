@@ -11,7 +11,10 @@
     <packagedElement xmi:type="uml:Package" xmi:id="_r1lUAONhEeiuhYwqE17vbg" name="System Specification">
       <packagedElement xmi:type="uml:Package" xmi:id="_3yfx8ONhEeiuhYwqE17vbg" name="General Needs">
         <packagedElement xmi:type="uml:Class" xmi:id="_fzrB0O5YEeiPWblirI5b4g" name="Température" isLeaf="true" isAbstract="true"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_6fAxIO5aEeiPWblirI5b4g" name="Requirement2"/>
+        <packagedElement xmi:type="uml:Interaction" xmi:id="_eiJQMPknEei886H8lLqYsA" name="Interaction3">
+          <lifeline xmi:type="uml:Lifeline" xmi:id="_HiBRkPkpEei886H8lLqYsA" name="Habitant"/>
+          <lifeline xmi:type="uml:Lifeline" xmi:id="_Iu5UYPkpEei886H8lLqYsA" name="Système"/>
+        </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_6iz9cONhEeiuhYwqE17vbg" name="Technical Needs"/>
     </packagedElement>
@@ -28,8 +31,50 @@
     <packagedElement xmi:type="uml:UseCase" xmi:id="_GPOPUONkEeiuhYwqE17vbg" name="Lire prévisions"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_HERoAONkEeiuhYwqE17vbg" name="Lire indicateur santé maison"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_HcD14ONkEeiuhYwqE17vbg" name="Lire indicateurs détaillés"/>
-    <packagedElement xmi:type="uml:Actor" xmi:id="_HwU1sONkEeiuhYwqE17vbg" name="Batman"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_8FNrMO5gEeiU8_u1U0bh5g" name="FACT"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_HwU1sONkEeiuhYwqE17vbg" name="Habitant"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_uI1bwPkoEei886H8lLqYsA" name="Consulter la température" classifierBehavior="_mA9DwPkqEei886H8lLqYsA">
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_mA9DwPkqEei886H8lLqYsA" name="Interaction1"/>
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_-RgdkPkqEei886H8lLqYsA" name="Interaction2">
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_cKlmIPkrEei886H8lLqYsA" name="Habitant" coveredBy="_iB6l4PkrEei886H8lLqYsA _iCaVIfkrEei886H8lLqYsA"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_cdBZ8PkrEei886H8lLqYsA" name="Alfred" coveredBy="_iB7M8PkrEei886H8lLqYsA _8hLS8PkrEei886H8lLqYsA _8hLS8fkrEei886H8lLqYsA _iCaVIPkrEei886H8lLqYsA _iCWqwPkrEei886H8lLqYsA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_iB6l4PkrEei886H8lLqYsA" name="Message3SendEvent" covered="_cKlmIPkrEei886H8lLqYsA" message="_iB5-0PkrEei886H8lLqYsA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_iB7M8PkrEei886H8lLqYsA" name="Message3ReceiveEvent" covered="_cdBZ8PkrEei886H8lLqYsA" message="_iB5-0PkrEei886H8lLqYsA"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_iCWqwPkrEei886H8lLqYsA" name="BehaviorExecutionSpecification6" covered="_cdBZ8PkrEei886H8lLqYsA" finish="_iCaVIPkrEei886H8lLqYsA" start="_iB7M8PkrEei886H8lLqYsA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_8hLS8PkrEei886H8lLqYsA" name="Message10SendEvent" covered="_cdBZ8PkrEei886H8lLqYsA" message="_8hKr4PkrEei886H8lLqYsA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_8hLS8fkrEei886H8lLqYsA" name="Message10ReceiveEvent" covered="_cdBZ8PkrEei886H8lLqYsA" message="_8hKr4PkrEei886H8lLqYsA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_iCaVIPkrEei886H8lLqYsA" name="Message8SendEvent" covered="_cdBZ8PkrEei886H8lLqYsA" message="_iCZuEPkrEei886H8lLqYsA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_iCaVIfkrEei886H8lLqYsA" name="Message8ReceiveEvent" covered="_cKlmIPkrEei886H8lLqYsA" message="_iCZuEPkrEei886H8lLqYsA"/>
+        <message xmi:type="uml:Message" xmi:id="_iB5-0PkrEei886H8lLqYsA" name="consulterTemperature()" receiveEvent="_iB7M8PkrEei886H8lLqYsA" sendEvent="_iB6l4PkrEei886H8lLqYsA"/>
+        <message xmi:type="uml:Message" xmi:id="_iCZuEPkrEei886H8lLqYsA" name=" " messageSort="asynchCall" receiveEvent="_iCaVIfkrEei886H8lLqYsA" sendEvent="_iCaVIPkrEei886H8lLqYsA"/>
+        <message xmi:type="uml:Message" xmi:id="_8hKr4PkrEei886H8lLqYsA" name="temperature = getTemperature()" receiveEvent="_8hLS8fkrEei886H8lLqYsA" sendEvent="_8hLS8PkrEei886H8lLqYsA"/>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_7QYkAPksEei886H8lLqYsA" name="Interaction3">
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_E19-MPktEei886H8lLqYsA" name="Habitant" coveredBy="_uRkuwPktEei886H8lLqYsA _uSHhUPktEei886H8lLqYsA"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_HxkzsPktEei886H8lLqYsA" name="Alfred" coveredBy="_uRlV0PktEei886H8lLqYsA _0DRAkPktEei886H8lLqYsA _4jGB4PktEei886H8lLqYsA _uSG6QPktEei886H8lLqYsA _uSBasPktEei886H8lLqYsA"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_qfqjYPktEei886H8lLqYsA" name="Thermometre" coveredBy="_0DRnoPktEei886H8lLqYsA _4jFa0PktEei886H8lLqYsA _0DrQQPktEei886H8lLqYsA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_uRkuwPktEei886H8lLqYsA" name="Message4SendEvent" covered="_E19-MPktEei886H8lLqYsA" message="_uRjgoPktEei886H8lLqYsA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_uRlV0PktEei886H8lLqYsA" name="Message4ReceiveEvent" covered="_HxkzsPktEei886H8lLqYsA" message="_uRjgoPktEei886H8lLqYsA"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_uSBasPktEei886H8lLqYsA" name="BehaviorExecutionSpecification7" covered="_HxkzsPktEei886H8lLqYsA" finish="_uSG6QPktEei886H8lLqYsA" start="_uRlV0PktEei886H8lLqYsA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_0DRAkPktEei886H8lLqYsA" name="Message11SendEvent" covered="_HxkzsPktEei886H8lLqYsA" message="_0DQZgPktEei886H8lLqYsA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_0DRnoPktEei886H8lLqYsA" name="Message11ReceiveEvent" covered="_qfqjYPktEei886H8lLqYsA" message="_0DQZgPktEei886H8lLqYsA"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_0DrQQPktEei886H8lLqYsA" name="BehaviorExecutionSpecification14" covered="_qfqjYPktEei886H8lLqYsA" finish="_4jFa0PktEei886H8lLqYsA" start="_0DRnoPktEei886H8lLqYsA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_4jFa0PktEei886H8lLqYsA" name="Message16SendEvent" covered="_qfqjYPktEei886H8lLqYsA" message="_4jEzwPktEei886H8lLqYsA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_4jGB4PktEei886H8lLqYsA" name="Message16ReceiveEvent" covered="_HxkzsPktEei886H8lLqYsA" message="_4jEzwPktEei886H8lLqYsA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_uSG6QPktEei886H8lLqYsA" name="Message9SendEvent" covered="_HxkzsPktEei886H8lLqYsA" message="_uSFsIPktEei886H8lLqYsA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_uSHhUPktEei886H8lLqYsA" name="Message9ReceiveEvent" covered="_E19-MPktEei886H8lLqYsA" message="_uSFsIPktEei886H8lLqYsA"/>
+        <message xmi:type="uml:Message" xmi:id="_uRjgoPktEei886H8lLqYsA" name="consulterTemperature()" receiveEvent="_uRlV0PktEei886H8lLqYsA" sendEvent="_uRkuwPktEei886H8lLqYsA"/>
+        <message xmi:type="uml:Message" xmi:id="_uSFsIPktEei886H8lLqYsA" name=" " messageSort="reply" receiveEvent="_uSHhUPktEei886H8lLqYsA" sendEvent="_uSG6QPktEei886H8lLqYsA"/>
+        <message xmi:type="uml:Message" xmi:id="_0DQZgPktEei886H8lLqYsA" name="getTemperature()" receiveEvent="_0DRnoPktEei886H8lLqYsA" sendEvent="_0DRAkPktEei886H8lLqYsA"/>
+        <message xmi:type="uml:Message" xmi:id="_4jEzwPktEei886H8lLqYsA" name="temperature" messageSort="reply" receiveEvent="_4jGB4PktEei886H8lLqYsA" sendEvent="_4jFa0PktEei886H8lLqYsA"/>
+      </ownedBehavior>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_8qgVcPkoEei886H8lLqYsA" memberEnd="_8qvmAPkoEei886H8lLqYsA _8qwNEPkoEei886H8lLqYsA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8quX4PkoEei886H8lLqYsA" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8qu-8PkoEei886H8lLqYsA" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_8qvmAPkoEei886H8lLqYsA" name="obtenir la température" type="_uI1bwPkoEei886H8lLqYsA" association="_8qgVcPkoEei886H8lLqYsA"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_8qwNEPkoEei886H8lLqYsA" name="batman" type="_HwU1sONkEeiuhYwqE17vbg" association="_8qgVcPkoEei886H8lLqYsA"/>
+    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_1ICzUONgEeiuhYwqE17vbg">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1II58ONgEeiuhYwqE17vbg" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
@@ -92,5 +137,4 @@
     </profileApplication>
   </uml:Model>
   <Requirements:Requirement xmi:id="_f0e6IO5YEeiPWblirI5b4g" base_Class="_fzrB0O5YEeiPWblirI5b4g" id="1" text="Alfred doit pouvoir afficher la température dans la maison"/>
-  <Requirements:Requirement xmi:id="_6fKiIO5aEeiPWblirI5b4g" base_Class="_6fAxIO5aEeiPWblirI5b4g" id="2" text="Test"/>
 </xmi:XMI>
