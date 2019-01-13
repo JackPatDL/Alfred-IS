@@ -50,23 +50,23 @@
       </ownedBehavior>
       <ownedBehavior xmi:type="uml:Interaction" xmi:id="_7QYkAPksEei886H8lLqYsA" name="Interaction3">
         <lifeline xmi:type="uml:Lifeline" xmi:id="_E19-MPktEei886H8lLqYsA" name=":Habitant" coveredBy="_uRkuwPktEei886H8lLqYsA _uSHhUPktEei886H8lLqYsA"/>
-        <lifeline xmi:type="uml:Lifeline" xmi:id="_HxkzsPktEei886H8lLqYsA" name=":Ecran" coveredBy="_uRlV0PktEei886H8lLqYsA _Z0nCoBc6EemwB4FhvI-Orw _uSG6QPktEei886H8lLqYsA _Z1MRcBc6EemwB4FhvI-Orw _uSBasPktEei886H8lLqYsA"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_HxkzsPktEei886H8lLqYsA" name=":Ecran" coveredBy="_uRlV0PktEei886H8lLqYsA _Z0nCoBc6EemwB4FhvI-Orw _Z1MRcBc6EemwB4FhvI-Orw _uSG6QPktEei886H8lLqYsA _uSBasPktEei886H8lLqYsA"/>
         <lifeline xmi:type="uml:Lifeline" xmi:id="_qfqjYPktEei886H8lLqYsA" name=":Thermometre" coveredBy="_0DRnoPktEei886H8lLqYsA _4jFa0PktEei886H8lLqYsA _0DrQQPktEei886H8lLqYsA"/>
-        <lifeline xmi:type="uml:Lifeline" xmi:id="_PMo-YBc6EemwB4FhvI-Orw" name=":CtrlEtatDeSante" coveredBy="_0DRAkPktEei886H8lLqYsA _Z0nCoRc6EemwB4FhvI-Orw _Z1LqYRc6EemwB4FhvI-Orw _4jGB4PktEei886H8lLqYsA _Z1E8sBc6EemwB4FhvI-Orw"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_PMo-YBc6EemwB4FhvI-Orw" name=":CtrlEtatDeSante" coveredBy="_Z0nCoRc6EemwB4FhvI-Orw _0DRAkPktEei886H8lLqYsA _4jGB4PktEei886H8lLqYsA _Z1LqYRc6EemwB4FhvI-Orw _Z1E8sBc6EemwB4FhvI-Orw"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_uRkuwPktEei886H8lLqYsA" name="Message4SendEvent" covered="_E19-MPktEei886H8lLqYsA" message="_uRjgoPktEei886H8lLqYsA"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_uRlV0PktEei886H8lLqYsA" name="Message4ReceiveEvent" covered="_HxkzsPktEei886H8lLqYsA" message="_uRjgoPktEei886H8lLqYsA"/>
         <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_uSBasPktEei886H8lLqYsA" name="BehaviorExecutionSpecification7" covered="_HxkzsPktEei886H8lLqYsA" finish="_uSG6QPktEei886H8lLqYsA" start="_uRlV0PktEei886H8lLqYsA"/>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_0DRAkPktEei886H8lLqYsA" name="Message11SendEvent" covered="_PMo-YBc6EemwB4FhvI-Orw" message="_0DQZgPktEei886H8lLqYsA"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Z0nCoBc6EemwB4FhvI-Orw" name="Message19SendEvent" covered="_HxkzsPktEei886H8lLqYsA" message="_Z0kmYBc6EemwB4FhvI-Orw"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Z0nCoRc6EemwB4FhvI-Orw" name="Message19ReceiveEvent" covered="_PMo-YBc6EemwB4FhvI-Orw" message="_Z0kmYBc6EemwB4FhvI-Orw"/>
         <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_Z1E8sBc6EemwB4FhvI-Orw" name="BehaviorExecutionSpecification22" covered="_PMo-YBc6EemwB4FhvI-Orw" finish="_Z1LqYRc6EemwB4FhvI-Orw" start="_Z0nCoRc6EemwB4FhvI-Orw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_0DRAkPktEei886H8lLqYsA" name="Message11SendEvent" covered="_PMo-YBc6EemwB4FhvI-Orw" message="_0DQZgPktEei886H8lLqYsA"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_0DRnoPktEei886H8lLqYsA" name="Message11ReceiveEvent" covered="_qfqjYPktEei886H8lLqYsA" message="_0DQZgPktEei886H8lLqYsA"/>
         <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_0DrQQPktEei886H8lLqYsA" name="BehaviorExecutionSpecification14" covered="_qfqjYPktEei886H8lLqYsA" finish="_4jFa0PktEei886H8lLqYsA" start="_0DRnoPktEei886H8lLqYsA"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_4jFa0PktEei886H8lLqYsA" name="Message16SendEvent" covered="_qfqjYPktEei886H8lLqYsA" message="_4jEzwPktEei886H8lLqYsA"/>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Z1LqYRc6EemwB4FhvI-Orw" name="Message24SendEvent" covered="_PMo-YBc6EemwB4FhvI-Orw" message="_Z1LqYBc6EemwB4FhvI-Orw"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_4jGB4PktEei886H8lLqYsA" name="Message16ReceiveEvent" covered="_PMo-YBc6EemwB4FhvI-Orw" message="_4jEzwPktEei886H8lLqYsA"/>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_uSG6QPktEei886H8lLqYsA" name="Message9SendEvent" covered="_HxkzsPktEei886H8lLqYsA" message="_uSFsIPktEei886H8lLqYsA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Z1LqYRc6EemwB4FhvI-Orw" name="Message24SendEvent" covered="_PMo-YBc6EemwB4FhvI-Orw" message="_Z1LqYBc6EemwB4FhvI-Orw"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Z1MRcBc6EemwB4FhvI-Orw" name="Message24ReceiveEvent" covered="_HxkzsPktEei886H8lLqYsA" message="_Z1LqYBc6EemwB4FhvI-Orw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_uSG6QPktEei886H8lLqYsA" name="Message9SendEvent" covered="_HxkzsPktEei886H8lLqYsA" message="_uSFsIPktEei886H8lLqYsA"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_uSHhUPktEei886H8lLqYsA" name="Message9ReceiveEvent" covered="_E19-MPktEei886H8lLqYsA" message="_uSFsIPktEei886H8lLqYsA"/>
         <message xmi:type="uml:Message" xmi:id="_uRjgoPktEei886H8lLqYsA" name="consulterTemperature()" receiveEvent="_uRlV0PktEei886H8lLqYsA" sendEvent="_uRkuwPktEei886H8lLqYsA"/>
         <message xmi:type="uml:Message" xmi:id="_uSFsIPktEei886H8lLqYsA" name=" " messageSort="reply" receiveEvent="_uSHhUPktEei886H8lLqYsA" sendEvent="_uSG6QPktEei886H8lLqYsA"/>
@@ -83,6 +83,13 @@
       <ownedEnd xmi:type="uml:Property" xmi:id="_8qvmAPkoEei886H8lLqYsA" name="obtenir la température" type="_uI1bwPkoEei886H8lLqYsA" association="_8qgVcPkoEei886H8lLqYsA"/>
       <ownedEnd xmi:type="uml:Property" xmi:id="_8qwNEPkoEei886H8lLqYsA" name="batman" type="_HwU1sONkEeiuhYwqE17vbg" association="_8qgVcPkoEei886H8lLqYsA"/>
     </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_4bCxsBdAEemNI8hatBiSTA"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_60Qr0BdAEemNI8hatBiSTA"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_9nJqMBdAEemNI8hatBiSTA"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_GI_vcBdBEemNI8hatBiSTA" name="Lire alertes"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_GjM_MBdBEemNI8hatBiSTA" name="Lire conseils"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_KkitsBdBEemNI8hatBiSTA"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_Lalk4BdBEemNI8hatBiSTA"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_1ICzUONgEeiuhYwqE17vbg">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1II58ONgEeiuhYwqE17vbg" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
