@@ -15,6 +15,30 @@
           <lifeline xmi:type="uml:Lifeline" xmi:id="_HiBRkPkpEei886H8lLqYsA" name="Habitant"/>
           <lifeline xmi:type="uml:Lifeline" xmi:id="_Iu5UYPkpEei886H8lLqYsA" name="Système"/>
         </packagedElement>
+        <packagedElement xmi:type="uml:Activity" xmi:id="_WBWA0BdEEemNI8hatBiSTA" name="Acitivity" node="_nSagABdEEemNI8hatBiSTA _pLK78BdFEemNI8hatBiSTA _py1jcBdGEemNI8hatBiSTA __No4IBdGEemNI8hatBiSTA _TbbAEBdHEemNI8hatBiSTA _j_FmsBdHEemNI8hatBiSTA _EqBL0BdIEemNI8hatBiSTA">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_u7u6cBdHEemNI8hatBiSTA">
+            <body>Pour l'exigence choisie, cette activité représente la consultation de température, mais &#xD;
+on peut utiliser cette activité et ce diagramme pour chaque&#xD;
+consultation</body>
+          </ownedComment>
+          <ownedBehavior xmi:type="uml:Activity" xmi:id="_xfwL0BdGEemNI8hatBiSTA" name="Régler Alfred"/>
+          <ownedBehavior xmi:type="uml:Activity" xmi:id="_79hyQBdGEemNI8hatBiSTA" name="Consulter Alfred"/>
+          <ownedBehavior xmi:type="uml:Activity" xmi:id="_Dw2koBdHEemNI8hatBiSTA" name="Choisir paramètre à afficher"/>
+          <ownedBehavior xmi:type="uml:Activity" xmi:id="_iB7WcBdHEemNI8hatBiSTA" name="Afficher paramètre choisi"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_vIOwQBdFEemNI8hatBiSTA" target="_pLK78BdFEemNI8hatBiSTA" source="_nSagABdEEemNI8hatBiSTA"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_1m_G8BdGEemNI8hatBiSTA" target="_py1jcBdGEemNI8hatBiSTA" source="_pLK78BdFEemNI8hatBiSTA"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_GtQrYBdHEemNI8hatBiSTA" target="__No4IBdGEemNI8hatBiSTA" source="_pLK78BdFEemNI8hatBiSTA"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_H0GiMBdIEemNI8hatBiSTA" target="_TbbAEBdHEemNI8hatBiSTA" source="__No4IBdGEemNI8hatBiSTA"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_IMGLcBdIEemNI8hatBiSTA" target="_j_FmsBdHEemNI8hatBiSTA" source="_TbbAEBdHEemNI8hatBiSTA"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_KbgpUBdIEemNI8hatBiSTA" name="" target="_EqBL0BdIEemNI8hatBiSTA" source="_j_FmsBdHEemNI8hatBiSTA"/>
+          <node xmi:type="uml:InitialNode" xmi:id="_nSagABdEEemNI8hatBiSTA" name="Start" outgoing="_vIOwQBdFEemNI8hatBiSTA"/>
+          <node xmi:type="uml:ForkNode" xmi:id="_pLK78BdFEemNI8hatBiSTA" name="ForkNode2" incoming="_vIOwQBdFEemNI8hatBiSTA" outgoing="_1m_G8BdGEemNI8hatBiSTA _GtQrYBdHEemNI8hatBiSTA"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_py1jcBdGEemNI8hatBiSTA" name="Régler Alfred" incoming="_1m_G8BdGEemNI8hatBiSTA" behavior="_xfwL0BdGEemNI8hatBiSTA"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="__No4IBdGEemNI8hatBiSTA" name="Choisir paramètre à afficher" incoming="_GtQrYBdHEemNI8hatBiSTA" outgoing="_H0GiMBdIEemNI8hatBiSTA" behavior="_Dw2koBdHEemNI8hatBiSTA"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_TbbAEBdHEemNI8hatBiSTA" name="Afficher paramètre choisi" incoming="_H0GiMBdIEemNI8hatBiSTA" outgoing="_IMGLcBdIEemNI8hatBiSTA" behavior="_iB7WcBdHEemNI8hatBiSTA"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_j_FmsBdHEemNI8hatBiSTA" name="Consulter température" incoming="_IMGLcBdIEemNI8hatBiSTA" outgoing="_KbgpUBdIEemNI8hatBiSTA" behavior="_7QYkAPksEei886H8lLqYsA"/>
+          <node xmi:type="uml:ActivityFinalNode" xmi:id="_EqBL0BdIEemNI8hatBiSTA" name="End" incoming="_KbgpUBdIEemNI8hatBiSTA"/>
+        </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_6iz9cONhEeiuhYwqE17vbg" name="Technical Needs"/>
     </packagedElement>
@@ -28,9 +52,11 @@
     <packagedElement xmi:type="uml:Package" xmi:id="_xz5FgONhEeiuhYwqE17vbg" name="System Test"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_cPmLsONjEeiuhYwqE17vbg" name="UseCase17" visibility="protected"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_c85WkONjEeiuhYwqE17vbg" name="UseCase18"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_GPOPUONkEeiuhYwqE17vbg" name="Lire prévisions"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_HERoAONkEeiuhYwqE17vbg" name="Lire indicateur santé maison"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_HcD14ONkEeiuhYwqE17vbg" name="Lire indicateurs détaillés"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_GPOPUONkEeiuhYwqE17vbg" name="Consulter prévisions"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_HERoAONkEeiuhYwqE17vbg" name="Consulter indicateur santé maison">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="__-7SgRdDEemNI8hatBiSTA" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_HcD14ONkEeiuhYwqE17vbg" name="Consulter indicateurs détaillés"/>
     <packagedElement xmi:type="uml:Actor" xmi:id="_HwU1sONkEeiuhYwqE17vbg" name="Habitant"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_uI1bwPkoEei886H8lLqYsA" name="Consulter la température" classifierBehavior="_mA9DwPkqEei886H8lLqYsA">
       <ownedBehavior xmi:type="uml:Interaction" xmi:id="_mA9DwPkqEei886H8lLqYsA" name="Interaction1"/>
@@ -75,6 +101,9 @@
         <message xmi:type="uml:Message" xmi:id="_Z0kmYBc6EemwB4FhvI-Orw" name="getTemperature()" receiveEvent="_Z0nCoRc6EemwB4FhvI-Orw" sendEvent="_Z0nCoBc6EemwB4FhvI-Orw"/>
         <message xmi:type="uml:Message" xmi:id="_Z1LqYBc6EemwB4FhvI-Orw" name="temperature" messageSort="reply" receiveEvent="_Z1MRcBc6EemwB4FhvI-Orw" sendEvent="_Z1LqYRc6EemwB4FhvI-Orw"/>
       </ownedBehavior>
+      <extend xmi:type="uml:Extend" xmi:id="__-7SgBdDEemNI8hatBiSTA" extendedCase="_HERoAONkEeiuhYwqE17vbg" extensionLocation="__-7SgRdDEemNI8hatBiSTA"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_2O4UwBdDEemNI8hatBiSTA" name="ExtensionPoint4"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_-S3ZUBdDEemNI8hatBiSTA" name="ExtensionPoint5"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_8qgVcPkoEei886H8lLqYsA" memberEnd="_8qvmAPkoEei886H8lLqYsA _8qwNEPkoEei886H8lLqYsA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8quX4PkoEei886H8lLqYsA" source="org.eclipse.papyrus">
@@ -86,8 +115,8 @@
     <packagedElement xmi:type="uml:Association" xmi:id="_4bCxsBdAEemNI8hatBiSTA"/>
     <packagedElement xmi:type="uml:Association" xmi:id="_60Qr0BdAEemNI8hatBiSTA"/>
     <packagedElement xmi:type="uml:Association" xmi:id="_9nJqMBdAEemNI8hatBiSTA"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_GI_vcBdBEemNI8hatBiSTA" name="Lire alertes"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_GjM_MBdBEemNI8hatBiSTA" name="Lire conseils"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_GI_vcBdBEemNI8hatBiSTA" name="Consulter alertes"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_GjM_MBdBEemNI8hatBiSTA" name="Consulter conseils"/>
     <packagedElement xmi:type="uml:Association" xmi:id="_KkitsBdBEemNI8hatBiSTA"/>
     <packagedElement xmi:type="uml:Association" xmi:id="_Lalk4BdBEemNI8hatBiSTA"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_1ICzUONgEeiuhYwqE17vbg">
