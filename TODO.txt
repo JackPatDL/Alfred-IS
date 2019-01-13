@@ -8,3 +8,4 @@ Machine a Etat / Diagramme Activite
 
 
 Exigence 1 : Alfred doit pouvoir mesurer la température dans la maison
+Exigence 2 : 
