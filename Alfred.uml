@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Blocks" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.4/SysML#//blocks http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements">
   <uml:Model xmi:id="_0_jlsONgEeiuhYwqE17vbg" name="Alfred">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_1IVHMONgEeiuhYwqE17vbg">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
@@ -10,10 +10,74 @@
     <packagedElement xmi:type="uml:Package" xmi:id="_nffdgONhEeiuhYwqE17vbg" name="Context"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_r1lUAONhEeiuhYwqE17vbg" name="System Specification">
       <packagedElement xmi:type="uml:Package" xmi:id="_3yfx8ONhEeiuhYwqE17vbg" name="General Needs">
-        <packagedElement xmi:type="uml:Class" xmi:id="_fzrB0O5YEeiPWblirI5b4g" name="Température" isLeaf="true" isAbstract="true"/>
         <packagedElement xmi:type="uml:Interaction" xmi:id="_eiJQMPknEei886H8lLqYsA" name="Interaction3">
           <lifeline xmi:type="uml:Lifeline" xmi:id="_HiBRkPkpEei886H8lLqYsA" name="Habitant"/>
           <lifeline xmi:type="uml:Lifeline" xmi:id="_Iu5UYPkpEei886H8lLqYsA" name="Système"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_f1KrUBdEEemaz4IgxS3pzQ" name="Prévisions">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_vukCYBdDEemaz4IgxS3pzQ" name="Prévisions hebdomadaires"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_Xn8yQBdEEemaz4IgxS3pzQ" name="Prévisions quotidiennes"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_MzxBgBdFEemaz4IgxS3pzQ" name="Indicateur de santé">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_fzrB0O5YEeiPWblirI5b4g" name="Température" isLeaf="true" isAbstract="true"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_H10g0BdFEemaz4IgxS3pzQ" name="Humidité"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_fi1vwBdFEemaz4IgxS3pzQ" name="Conseils"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_2PtJQBdFEemaz4IgxS3pzQ" name="Qualité de l'air"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_9tbfEBdFEemaz4IgxS3pzQ" name="Refine" client="_2PtJQBdFEemaz4IgxS3pzQ" supplier="_Xn8yQBdEEemaz4IgxS3pzQ"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_GLPjcBdHEemaz4IgxS3pzQ" name="Thermomètre">
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_4GOCIBdJEemaz4IgxS3pzQ" name="getTemperature"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_6JSYABdHEemaz4IgxS3pzQ" name="Indicateur de santé">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_XhQiIRdJEemaz4IgxS3pzQ" name="thermomètre" type="_GLPjcBdHEemaz4IgxS3pzQ" association="_XhP7EBdJEemaz4IgxS3pzQ"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_5vUt8BdJEemaz4IgxS3pzQ" name="getTemperature"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_J07VABdJEemaz4IgxS3pzQ" name="Ecran"/>
+        <packagedElement xmi:type="uml:Association" xmi:id="_UgQ2UBdJEemaz4IgxS3pzQ" memberEnd="_UgSEcBdJEemaz4IgxS3pzQ _UgSrghdJEemaz4IgxS3pzQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_UgRdYBdJEemaz4IgxS3pzQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_UgRdYRdJEemaz4IgxS3pzQ" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_UgSrghdJEemaz4IgxS3pzQ" name="alfred" type="_tDR5IBdJEemaz4IgxS3pzQ" association="_UgQ2UBdJEemaz4IgxS3pzQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_XhP7EBdJEemaz4IgxS3pzQ" memberEnd="_XhQiIRdJEemaz4IgxS3pzQ _XhQiJBdJEemaz4IgxS3pzQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_XhP7ERdJEemaz4IgxS3pzQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XhQiIBdJEemaz4IgxS3pzQ" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_XhQiJBdJEemaz4IgxS3pzQ" name="indicateur de santé" type="_6JSYABdHEemaz4IgxS3pzQ" association="_XhP7EBdJEemaz4IgxS3pzQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_tDR5IBdJEemaz4IgxS3pzQ" name="Alfred">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_vTlu4xdJEemaz4IgxS3pzQ" name="indicateur de santé" type="_6JSYABdHEemaz4IgxS3pzQ" aggregation="composite" association="_vTlu4BdJEemaz4IgxS3pzQ"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_UgSEcBdJEemaz4IgxS3pzQ" name="ecran" type="_J07VABdJEemaz4IgxS3pzQ" aggregation="composite" association="_UgQ2UBdJEemaz4IgxS3pzQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_vTlu4BdJEemaz4IgxS3pzQ" memberEnd="_vTlu4xdJEemaz4IgxS3pzQ _vTmV8hdJEemaz4IgxS3pzQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_vTlu4RdJEemaz4IgxS3pzQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_vTlu4hdJEemaz4IgxS3pzQ" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_vTmV8hdJEemaz4IgxS3pzQ" name="alfred" type="_tDR5IBdJEemaz4IgxS3pzQ" association="_vTlu4BdJEemaz4IgxS3pzQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_EB0cABdLEemaz4IgxS3pzQ" name="Context">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_Ga_S0hdLEemaz4IgxS3pzQ" name="alfred" type="_tDR5IBdJEemaz4IgxS3pzQ" aggregation="composite" association="_Ga-rwBdLEemaz4IgxS3pzQ"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_IQFMMxdLEemaz4IgxS3pzQ" name="thermomètre" type="_GLPjcBdHEemaz4IgxS3pzQ" aggregation="composite" association="_IQFMMBdLEemaz4IgxS3pzQ"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_OdX04xdLEemaz4IgxS3pzQ" name="habitant" type="_Jrv48BdLEemaz4IgxS3pzQ" aggregation="composite" association="_OdX04BdLEemaz4IgxS3pzQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_Ga-rwBdLEemaz4IgxS3pzQ" memberEnd="_Ga_S0hdLEemaz4IgxS3pzQ _Ga_54BdLEemaz4IgxS3pzQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ga_S0BdLEemaz4IgxS3pzQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Ga_S0RdLEemaz4IgxS3pzQ" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_Ga_54BdLEemaz4IgxS3pzQ" name="context" type="_EB0cABdLEemaz4IgxS3pzQ" association="_Ga-rwBdLEemaz4IgxS3pzQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_IQFMMBdLEemaz4IgxS3pzQ" memberEnd="_IQFMMxdLEemaz4IgxS3pzQ _IQFzQBdLEemaz4IgxS3pzQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IQFMMRdLEemaz4IgxS3pzQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IQFMMhdLEemaz4IgxS3pzQ" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_IQFzQBdLEemaz4IgxS3pzQ" name="context" type="_EB0cABdLEemaz4IgxS3pzQ" association="_IQFMMBdLEemaz4IgxS3pzQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Actor" xmi:id="_Jrv48BdLEemaz4IgxS3pzQ" name="Habitant" visibility="protected"/>
+        <packagedElement xmi:type="uml:Association" xmi:id="_OdX04BdLEemaz4IgxS3pzQ" memberEnd="_OdX04xdLEemaz4IgxS3pzQ _OdYb8hdLEemaz4IgxS3pzQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_OdX04RdLEemaz4IgxS3pzQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OdX04hdLEemaz4IgxS3pzQ" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_OdYb8hdLEemaz4IgxS3pzQ" name="context" type="_EB0cABdLEemaz4IgxS3pzQ" association="_OdX04BdLEemaz4IgxS3pzQ"/>
         </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_6iz9cONhEeiuhYwqE17vbg" name="Technical Needs"/>
@@ -150,6 +214,25 @@
       </eAnnotations>
       <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
     </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_GmHaMBdKEemaz4IgxS3pzQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GmIoUBdKEemaz4IgxS3pzQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+    </profileApplication>
   </uml:Model>
-  <Requirements:Requirement xmi:id="_f0e6IO5YEeiPWblirI5b4g" base_Class="_fzrB0O5YEeiPWblirI5b4g" id="1" text="Alfred doit pouvoir afficher la température dans la maison"/>
+  <Requirements:Requirement xmi:id="_f0e6IO5YEeiPWblirI5b4g" base_Class="_fzrB0O5YEeiPWblirI5b4g" id="1.1" text="Alfred doit pouvoir afficher la température dans la maison"/>
+  <Requirements:Requirement xmi:id="_vuuacBdDEemaz4IgxS3pzQ" base_Class="_vukCYBdDEemaz4IgxS3pzQ" id="2.1" text="Alfred doit pouvoir afficher les prévisions pour la semaine"/>
+  <Requirements:Requirement xmi:id="_XoAcoBdEEemaz4IgxS3pzQ" base_Class="_Xn8yQBdEEemaz4IgxS3pzQ" id="2.2" text="Alfred doit pouvoir afficher les prévisions du jour"/>
+  <Requirements:Requirement xmi:id="_f1NHkBdEEemaz4IgxS3pzQ" base_Class="_f1KrUBdEEemaz4IgxS3pzQ" id="2" text="Alfred doit pouvoir afficher les prévisions"/>
+  <Requirements:Requirement xmi:id="_H129EBdFEemaz4IgxS3pzQ" base_Class="_H10g0BdFEemaz4IgxS3pzQ" id="1.2" text="Alfred doit pouvoir afficher l'humidité dans la maison"/>
+  <Requirements:Requirement xmi:id="_Mzy2sBdFEemaz4IgxS3pzQ" base_Class="_MzxBgBdFEemaz4IgxS3pzQ" id="1" text="Alfred doit pouvoir afficher des informations provenant de la mesure de plusieurs grandeurs physiques"/>
+  <Requirements:Requirement xmi:id="_fi3k8BdFEemaz4IgxS3pzQ" base_Class="_fi1vwBdFEemaz4IgxS3pzQ" id="3" text="Alfred doit pouvoir afficher des conseils pour béneficier au mieux des capacités passives de la maison"/>
+  <Requirements:Requirement xmi:id="_2Pu-cBdFEemaz4IgxS3pzQ" base_Class="_2PtJQBdFEemaz4IgxS3pzQ" id="2.1.1" text="Alfred doit pouvoir afficher les prévisions de la qualité de l'air"/>
+  <Requirements:Refine xmi:id="_9td7UBdFEemaz4IgxS3pzQ" base_DirectedRelationship="_9tbfEBdFEemaz4IgxS3pzQ" base_Abstraction="_9tbfEBdFEemaz4IgxS3pzQ"/>
+  <Blocks:Block xmi:id="_GLR_sBdHEemaz4IgxS3pzQ" base_Class="_GLPjcBdHEemaz4IgxS3pzQ"/>
+  <Blocks:Block xmi:id="_6JU0QBdHEemaz4IgxS3pzQ" base_Class="_6JSYABdHEemaz4IgxS3pzQ"/>
+  <Blocks:Block xmi:id="_J09KMBdJEemaz4IgxS3pzQ" base_Class="_J07VABdJEemaz4IgxS3pzQ"/>
+  <Blocks:Block xmi:id="_tDTuUBdJEemaz4IgxS3pzQ" base_Class="_tDR5IBdJEemaz4IgxS3pzQ"/>
+  <Blocks:Block xmi:id="_EB24QBdLEemaz4IgxS3pzQ" base_Class="_EB0cABdLEemaz4IgxS3pzQ"/>
 </xmi:XMI>
