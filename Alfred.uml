@@ -72,6 +72,10 @@ consultation</body>
         <packagedElement xmi:type="uml:Class" xmi:id="_tDR5IBdJEemaz4IgxS3pzQ" name="Alfred">
           <ownedAttribute xmi:type="uml:Property" xmi:id="_vTlu4xdJEemaz4IgxS3pzQ" name="indicateur de santé" type="_6JSYABdHEemaz4IgxS3pzQ" aggregation="composite" association="_vTlu4BdJEemaz4IgxS3pzQ"/>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_UgSEcBdJEemaz4IgxS3pzQ" name="ecran" type="_J07VABdJEemaz4IgxS3pzQ" aggregation="composite" association="_UgQ2UBdJEemaz4IgxS3pzQ"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_TvhHIBdPEemNI8hatBiSTA" name="thermomètre" type="_GLPjcBdHEemaz4IgxS3pzQ" association="_TvcOoBdPEemNI8hatBiSTA">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TvhuMBdPEemNI8hatBiSTA"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TviVQBdPEemNI8hatBiSTA" value="1"/>
+          </ownedAttribute>
         </packagedElement>
         <packagedElement xmi:type="uml:Association" xmi:id="_vTlu4BdJEemaz4IgxS3pzQ" memberEnd="_vTlu4xdJEemaz4IgxS3pzQ _vTmV8hdJEemaz4IgxS3pzQ">
           <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_vTlu4RdJEemaz4IgxS3pzQ" source="org.eclipse.papyrus">
@@ -102,6 +106,27 @@ consultation</body>
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OdX04hdLEemaz4IgxS3pzQ" key="nature" value="UML_Nature"/>
           </eAnnotations>
           <ownedEnd xmi:type="uml:Property" xmi:id="_OdYb8hdLEemaz4IgxS3pzQ" name="context" type="_EB0cABdLEemaz4IgxS3pzQ" association="_OdX04BdLEemaz4IgxS3pzQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_TvcOoBdPEemNI8hatBiSTA" name="" memberEnd="_TvhHIBdPEemNI8hatBiSTA _TviVQRdPEemNI8hatBiSTA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Tvf5ABdPEemNI8hatBiSTA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Tvf5ARdPEemNI8hatBiSTA" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_TviVQRdPEemNI8hatBiSTA" name="alfred" type="_tDR5IBdJEemaz4IgxS3pzQ" association="_TvcOoBdPEemNI8hatBiSTA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_fTOwABdREemNI8hatBiSTA" name="Alfred">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_24l3wBdREemNI8hatBiSTA" name="Block1" type="_J07VABdJEemaz4IgxS3pzQ" aggregation="composite" association="_8scswBdREemNI8hatBiSTA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_vlAjIBdWEemNI8hatBiSTA" name="Thermomètre" type="_GLPjcBdHEemaz4IgxS3pzQ" aggregation="composite" association="_3Kg78BdWEemNI8hatBiSTA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_7w208BdWEemNI8hatBiSTA" name="Indicateur de santé" type="_6JSYABdHEemaz4IgxS3pzQ" aggregation="composite" association="_-pCjABdWEemNI8hatBiSTA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_FHTm8BdXEemNI8hatBiSTA" name="Batman" type="_HwU1sONkEeiuhYwqE17vbg"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_8scswBdREemNI8hatBiSTA" memberEnd="_24l3wBdREemNI8hatBiSTA _8sfJABdREemNI8hatBiSTA">
+          <ownedEnd xmi:type="uml:Property" xmi:id="_8sfJABdREemNI8hatBiSTA" type="_fTOwABdREemNI8hatBiSTA" association="_8scswBdREemNI8hatBiSTA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_3Kg78BdWEemNI8hatBiSTA" memberEnd="_vlAjIBdWEemNI8hatBiSTA _3KixIBdWEemNI8hatBiSTA">
+          <ownedEnd xmi:type="uml:Property" xmi:id="_3KixIBdWEemNI8hatBiSTA" type="_fTOwABdREemNI8hatBiSTA" association="_3Kg78BdWEemNI8hatBiSTA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_-pCjABdWEemNI8hatBiSTA" memberEnd="_7w208BdWEemNI8hatBiSTA _-pEYMBdWEemNI8hatBiSTA">
+          <ownedEnd xmi:type="uml:Property" xmi:id="_-pEYMBdWEemNI8hatBiSTA" type="_fTOwABdREemNI8hatBiSTA" association="_-pCjABdWEemNI8hatBiSTA"/>
         </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_6iz9cONhEeiuhYwqE17vbg" name="Technical Needs"/>
@@ -264,4 +289,5 @@ consultation</body>
   <Blocks:Block xmi:id="_J09KMBdJEemaz4IgxS3pzQ" base_Class="_J07VABdJEemaz4IgxS3pzQ"/>
   <Blocks:Block xmi:id="_tDTuUBdJEemaz4IgxS3pzQ" base_Class="_tDR5IBdJEemaz4IgxS3pzQ"/>
   <Blocks:Block xmi:id="_EB24QBdLEemaz4IgxS3pzQ" base_Class="_EB0cABdLEemaz4IgxS3pzQ"/>
+  <Blocks:Block xmi:id="_fTRzUBdREemNI8hatBiSTA" base_Class="_fTOwABdREemNI8hatBiSTA"/>
 </xmi:XMI>
