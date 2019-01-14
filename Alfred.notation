@@ -2,15 +2,15 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
   <notation:Diagram xmi:id="_rDqc8ONjEeiuhYwqE17vbg" type="UseCase" name="UseCaseDiagram" measurementUnit="Pixel">
     <children xmi:type="notation:Shape" xmi:id="_GPOPUeNkEeiuhYwqE17vbg" type="UseCase_Shape">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VG4nABgxEemmzrw-I-WHJQ" source="PapyrusHyperLink_Object" references="_TP3CgBgGEemv0uI5H1Cjzg">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VG4nARgxEemmzrw-I-WHJQ" key="tooltip_text"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VG4nAhgxEemmzrw-I-WHJQ" key="pageName" value="PapyrusHyperLink_Object"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VG4nAxgxEemmzrw-I-WHJQ" key="is_default_navigation" value="true"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ba1MIBhDEemmzrw-I-WHJQ" source="PapyrusHyperLink_Object" references="_TP3CgBgGEemv0uI5H1Cjzg">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ba1MIRhDEemmzrw-I-WHJQ" key="tooltip_text"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ba1MIhhDEemmzrw-I-WHJQ" key="pageName" value="PapyrusHyperLink_Object"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ba1MIxhDEemmzrw-I-WHJQ" key="is_default_navigation" value="true"/>
       </eAnnotations>
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VG5OEBgxEemmzrw-I-WHJQ" source="PapyrusHyperLink_Object">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VG5OERgxEemmzrw-I-WHJQ" key="tooltip_text"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VG5OEhgxEemmzrw-I-WHJQ" key="pageName" value="PapyrusHyperLink_Object"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VG5OExgxEemmzrw-I-WHJQ" key="is_default_navigation" value="true"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ba1MJBhDEemmzrw-I-WHJQ" source="PapyrusHyperLink_Object" references="_cKEV4BgxEemmzrw-I-WHJQ">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ba1MJRhDEemmzrw-I-WHJQ" key="tooltip_text"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ba1MJhhDEemmzrw-I-WHJQ" key="pageName" value="PapyrusHyperLink_Object"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ba1MJxhDEemmzrw-I-WHJQ" key="is_default_navigation" value="true"/>
       </eAnnotations>
       <children xmi:type="notation:DecorationNode" xmi:id="_GPOPU-NkEeiuhYwqE17vbg" type="UseCase_NameLabel"/>
       <children xmi:type="notation:DecorationNode" xmi:id="_GPOPVONkEeiuhYwqE17vbg" type="UseCase_FloatingNameLabel">
@@ -671,7 +671,7 @@
     <styles xmi:type="notation:StringValueStyle" xmi:id="_Ajvl9vkrEei886H8lLqYsA" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_Ajvl9_krEei886H8lLqYsA"/>
     <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_Ajvl-PkrEei886H8lLqYsA" diagramKindId="org.eclipse.papyrus.sysml14.diagram.sequence">
-      <owner xmi:type="uml:UseCase" href="Alfred.uml#_uI1bwPkoEei886H8lLqYsA"/>
+      <owner xmi:type="uml:Package" href="Alfred.uml#_lOLyABhCEemmzrw-I-WHJQ"/>
     </styles>
     <element xmi:type="uml:Interaction" href="Alfred.uml#_-RgdkPkqEei886H8lLqYsA"/>
     <edges xmi:type="notation:Connector" xmi:id="_iCAFcPkrEei886H8lLqYsA" type="Message_SynchEdge" source="_cKoCYPkrEei886H8lLqYsA" target="_cdFEUPkrEei886H8lLqYsA">
@@ -770,7 +770,7 @@
     <styles xmi:type="notation:StringValueStyle" xmi:id="_9HnLZvksEei886H8lLqYsA" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_9HnLZ_ksEei886H8lLqYsA"/>
     <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_9HnLaPksEei886H8lLqYsA" diagramKindId="org.eclipse.papyrus.sysml14.diagram.sequence">
-      <owner xmi:type="uml:UseCase" href="Alfred.uml#_uI1bwPkoEei886H8lLqYsA"/>
+      <owner xmi:type="uml:Package" href="Alfred.uml#_lOLyABhCEemmzrw-I-WHJQ"/>
     </styles>
     <element xmi:type="uml:Interaction" href="Alfred.uml#_7QYkAPksEei886H8lLqYsA"/>
     <edges xmi:type="notation:Connector" xmi:id="_uRqOUPktEei886H8lLqYsA" type="Message_SynchEdge" source="_E2AacPktEei886H8lLqYsA" target="_HxoeEPktEei886H8lLqYsA">
@@ -936,7 +936,7 @@
     <styles xmi:type="notation:StringValueStyle" xmi:id="_XXcRIxdEEemNI8hatBiSTA" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_XXcRJBdEEemNI8hatBiSTA"/>
     <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_XXcRJRdEEemNI8hatBiSTA" diagramKindId="org.eclipse.papyrus.sysml14.diagram.activity">
-      <owner xmi:type="uml:Package" href="Alfred.uml#_Cw0JUBdaEem-s50QgOJa6g"/>
+      <owner xmi:type="uml:Package" href="Alfred.uml#_lOLyABhCEemmzrw-I-WHJQ"/>
     </styles>
     <element xmi:type="uml:Activity" href="Alfred.uml#_WBWA0BdEEemNI8hatBiSTA"/>
     <edges xmi:type="notation:Connector" xmi:id="_IMVcABdIEemNI8hatBiSTA" type="ControlFlow_Edge" source="_iCcT0BdHEemNI8hatBiSTA" target="_pMxzkBdHEemNI8hatBiSTA">
@@ -1039,7 +1039,7 @@
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5OUwQRgmEemv0uI5H1Cjzg" id="(0.2830188679245283,0.0)"/>
     </edges>
   </notation:Diagram>
-  <notation:Diagram xmi:id="_38lFUBdGEemaz4IgxS3pzQ" type="PapyrusUMLClassDiagram" name="BlockDefinitionDiagram" measurementUnit="Pixel">
+  <notation:Diagram xmi:id="_38lFUBdGEemaz4IgxS3pzQ" type="PapyrusUMLClassDiagram" name="TemperatureBlockDiagram" measurementUnit="Pixel">
     <children xmi:type="notation:Shape" xmi:id="_GLT04BdHEemaz4IgxS3pzQ" type="Class_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_GLUb8BdHEemaz4IgxS3pzQ" type="Class_NameLabel"/>
       <children xmi:type="notation:DecorationNode" xmi:id="_GLUb8RdHEemaz4IgxS3pzQ" type="Class_FloatingNameLabel">
@@ -1353,7 +1353,7 @@
     <styles xmi:type="notation:StringValueStyle" xmi:id="_38lFURdGEemaz4IgxS3pzQ" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_38lFUhdGEemaz4IgxS3pzQ"/>
     <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_38lFUxdGEemaz4IgxS3pzQ" diagramKindId="org.eclipse.papyrus.sysml14.diagram.blockdefinition">
-      <owner xmi:type="uml:Package" href="Alfred.uml#_7RDzMBdZEem-s50QgOJa6g"/>
+      <owner xmi:type="uml:Package" href="Alfred.uml#_mR1K4BhDEemmzrw-I-WHJQ"/>
     </styles>
     <element xmi:type="uml:Package" href="Alfred.uml#_3yfx8ONhEeiuhYwqE17vbg"/>
     <edges xmi:type="notation:Connector" xmi:id="_UgYLEBdJEemaz4IgxS3pzQ" type="Association_Edge" source="_tDUVYBdJEemaz4IgxS3pzQ" target="_J09xQBdJEemaz4IgxS3pzQ">
@@ -1606,7 +1606,7 @@
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rm6eaBgxEemmzrw-I-WHJQ"/>
     </edges>
   </notation:Diagram>
-  <notation:Diagram xmi:id="_ggl7ABdREemNI8hatBiSTA" type="CompositeStructure" name="InternalBlockDiagram" measurementUnit="Pixel">
+  <notation:Diagram xmi:id="_ggl7ABdREemNI8hatBiSTA" type="CompositeStructure" name="TemperatureIBD" measurementUnit="Pixel">
     <children xmi:type="notation:Shape" xmi:id="_ggmiEBdREemNI8hatBiSTA" type="Class_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_ggmiEhdREemNI8hatBiSTA" type="Class_NameLabel"/>
       <children xmi:type="notation:DecorationNode" xmi:id="_ggmiExdREemNI8hatBiSTA" type="Class_FloatingNameLabel">
@@ -1787,7 +1787,7 @@
     <styles xmi:type="notation:StringValueStyle" xmi:id="_ggl7ARdREemNI8hatBiSTA" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_ggl7AhdREemNI8hatBiSTA"/>
     <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_ggl7AxdREemNI8hatBiSTA" diagramKindId="org.eclipse.papyrus.sysml14.diagram.internalblock">
-      <owner xmi:type="uml:Package" href="Alfred.uml#_7RDzMBdZEem-s50QgOJa6g"/>
+      <owner xmi:type="uml:Package" href="Alfred.uml#_mR1K4BhDEemmzrw-I-WHJQ"/>
     </styles>
     <element xmi:type="uml:Class" href="Alfred.uml#_fTOwABdREemNI8hatBiSTA"/>
     <edges xmi:type="notation:Connector" xmi:id="_7hXyABdXEemNI8hatBiSTA" type="InformationFlow_Edge" source="_0lu1kBdXEemNI8hatBiSTA" target="_1Joz4BdXEemNI8hatBiSTA">
@@ -1918,7 +1918,7 @@
     <styles xmi:type="notation:StringValueStyle" xmi:id="_TP3ChhgGEemv0uI5H1Cjzg" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_TP3ChxgGEemv0uI5H1Cjzg"/>
     <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_TP3CiBgGEemv0uI5H1Cjzg" diagramKindId="org.eclipse.papyrus.sysml14.diagram.sequence">
-      <owner xmi:type="uml:Package" href="Alfred.uml#_9wBgUONhEeiuhYwqE17vbg"/>
+      <owner xmi:type="uml:Package" href="Alfred.uml#_5olZoBhCEemmzrw-I-WHJQ"/>
     </styles>
     <element xmi:type="uml:Interaction" href="Alfred.uml#_SL_xwBgGEemv0uI5H1Cjzg"/>
     <edges xmi:type="notation:Connector" xmi:id="_iMKCsBgGEemv0uI5H1Cjzg" type="Message_AsynchEdge" source="_YvPcUBgGEemv0uI5H1Cjzg" target="_egfCMBgGEemv0uI5H1Cjzg">
@@ -2641,7 +2641,7 @@
     <styles xmi:type="notation:StringValueStyle" xmi:id="_xK5ykRgJEemv0uI5H1Cjzg" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_xK5ykhgJEemv0uI5H1Cjzg"/>
     <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_xK5ykxgJEemv0uI5H1Cjzg" diagramKindId="org.eclipse.papyrus.sysml14.diagram.blockdefinition">
-      <owner xmi:type="uml:Package" href="Alfred.uml#_9wBgUONhEeiuhYwqE17vbg"/>
+      <owner xmi:type="uml:Package" href="Alfred.uml#_qbZBQBhDEemmzrw-I-WHJQ"/>
     </styles>
     <element xmi:type="uml:Package" href="Alfred.uml#_9wBgUONhEeiuhYwqE17vbg"/>
     <edges xmi:type="notation:Connector" xmi:id="_fy1MIBgMEemv0uI5H1Cjzg" type="Association_Edge" source="_t6qe8BgLEemv0uI5H1Cjzg" target="_0OnwUBgLEemv0uI5H1Cjzg">
@@ -3784,7 +3784,7 @@
     <styles xmi:type="notation:StringValueStyle" xmi:id="_mtztURgkEemv0uI5H1Cjzg" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_mtztUhgkEemv0uI5H1Cjzg"/>
     <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_mtztUxgkEemv0uI5H1Cjzg" diagramKindId="org.eclipse.papyrus.sysml14.diagram.internalblock">
-      <owner xmi:type="uml:Package" href="Alfred.uml#_9wBgUONhEeiuhYwqE17vbg"/>
+      <owner xmi:type="uml:Package" href="Alfred.uml#_qbZBQBhDEemmzrw-I-WHJQ"/>
     </styles>
     <element xmi:type="uml:Class" href="Alfred.uml#_lLXqMBgkEemv0uI5H1Cjzg"/>
     <edges xmi:type="notation:Connector" xmi:id="_HBzjshgmEemv0uI5H1Cjzg" type="InformationFlow_Edge" source="_iJnaUBgtEemmzrw-I-WHJQ" target="_u_xuEBglEemv0uI5H1Cjzg">
@@ -4244,7 +4244,7 @@
     <styles xmi:type="notation:StringValueStyle" xmi:id="_cKEV5hgxEemmzrw-I-WHJQ" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_cKEV5xgxEemmzrw-I-WHJQ"/>
     <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_cKEV6BgxEemmzrw-I-WHJQ" diagramKindId="org.eclipse.papyrus.sysml14.diagram.sequence">
-      <owner xmi:type="uml:Package" href="Alfred.uml#_9wBgUONhEeiuhYwqE17vbg"/>
+      <owner xmi:type="uml:Package" href="Alfred.uml#_5olZoBhCEemmzrw-I-WHJQ"/>
     </styles>
     <element xmi:type="uml:Interaction" href="Alfred.uml#_b4O_ABgxEemmzrw-I-WHJQ"/>
     <edges xmi:type="notation:Connector" xmi:id="_9_qXUBgxEemmzrw-I-WHJQ" type="Message_SynchEdge" source="_fVM1IBgxEemmzrw-I-WHJQ" target="_fnKH0BgxEemmzrw-I-WHJQ">
